@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+</head>
+<body>
+    <div>
+        <select id="mode">
+            <option value="insert">Insert</option>
+            <option value="modify">Modify</option>
+            <option value="read">Read</option>
+            <option value="delete">Delete</option>
+        </select>
+        <select id="database">
+            <option value="mongo">Mongo</option>
+            <option value="postgre">PostGre</option>
+            <option value="both">Both</option>
+        </select>
+        <button id="button" onClick="handleButtonClick()">Select</button>
+    </div>
+    <div id="output"></div>
+</body>
+<script src="script.js"></script>
+</html>
